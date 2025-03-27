@@ -2,6 +2,9 @@
 
 This repository provides a complete setup to run ROS 2 Humble with the OAK-D Lite depth camera and the iRobot Create® 3 robot on a Raspberry Pi 4. It includes Docker-based deployment, sample scripts for publishing depth and point cloud data, and RViz2 configurations for easy visualization. The project is designed to facilitate integration of real-time vision and navigation capabilities on low-power embedded platforms. Tested and verified on a Raspberry Pi 4, this setup enables rapid prototyping and exploration with the Create3 robot using advanced depth perception tools.
 
+The advantage of this repository is, that you can install this docker on a standard Raspberry Pi 4 64 bit OS.  Without having to install ROS native.  The performance is verry good!
+
+
 Example PointCloud ROS2 topic publisher in RVIZ2 :
 
 ![image](https://github.com/user-attachments/assets/e57aad29-5ea8-4dd4-baae-fe214805f642)
