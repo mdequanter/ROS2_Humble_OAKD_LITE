@@ -12,3 +12,37 @@ Example of Depth 2 Scan topic for use as a Lidar data
 
 ![image](https://github.com/user-attachments/assets/ad912ac2-f68a-47e4-8736-096946892761)
 
+
+
+#On the Raspberry PI
+
+## Installing
+
+git clone https://github.com/mdequanter/ROS2_Humble_OAKD_LITE.git
+
+cd ROS2_Humble_OAKD_LITE
+
+chmod +x docker_build.sh
+chmod +x start_docker.sh
+
+./docker_build.sh
+
+
+The first time building will take some time.
+
+## Use launching
+
+./start_docker.sh
+
+Then in the docker :  python3 depth2PointCloud.py
+
+It will start publishing topics.
+
+# On the Desktop Ubuntu system
+
+git clone https://github.com/mdequanter/ROS2_Humble_OAKD_LITE.git
+
+cd ROS2_Humble_OAKD_LITE
+
+rviz2 -d dept2PointCloud.rviz
+
