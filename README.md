@@ -4,6 +4,9 @@ This repository provides a complete setup to run ROS 2 Humble with the OAK-D Lit
 
 The advantage of this repository is, that you can install this docker on a standard Raspberry Pi 4 64 bit OS.  Without having to install ROS native.  The performance is verry good!
 
+![image](https://github.com/user-attachments/assets/75e48173-512b-4595-bafd-ac41725c7f65)
+
+
 
 Example PointCloud ROS2 topic publisher in RVIZ2 :
 
